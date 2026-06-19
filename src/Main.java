@@ -75,6 +75,6 @@ public class Main {
             camino.add(0, paso);
             paso = padres.get(paso);
         }
-        System.out.println("Hasta " + destino + ": " + camino + " | Tiempo: " + distanciaTotal);
+        System.out.println("Hasta " + destino + ": " + camino + " | Consumo en (Wh): " + distanciaTotal);
     }
 }
